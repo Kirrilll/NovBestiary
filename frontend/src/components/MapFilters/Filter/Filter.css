@@ -1,0 +1,22 @@
+.map__filter {
+    outline: none;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+
+    padding: 10px;
+    margin-bottom: 15px;
+
+    transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.filter-checked {
+    color: #fff;
+    background-color: #000000;
+}

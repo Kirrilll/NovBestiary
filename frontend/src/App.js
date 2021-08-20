@@ -7,8 +7,6 @@ import {MapPage} from "./pages/MapPage/MapPage"
 
 
 const App = () => {
-    console.log('qwe')
-
     return (
         <div className='app'>
             <Switch>
