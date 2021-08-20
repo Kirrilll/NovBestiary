@@ -3,7 +3,7 @@ import RoomIcon from "@material-ui/icons/Room"
 import {Cancel} from "@material-ui/icons"
 
 
-export const RegisterModal = ({handleClose}) => {
+export const RegisterModal = ({handleClose, isShow}) => {
     const [success, setSuccess] = useState(false)
     const [error, setError] = useState(false)
 
@@ -30,6 +30,8 @@ export const RegisterModal = ({handleClose}) => {
         }
     }
 
+    if (!isShow) return null
+
     return (
         <div className='modal__container'>
             <div className='logo__container'>
@@ -37,14 +39,14 @@ export const RegisterModal = ({handleClose}) => {
                 <span>Nov-Bestiary</span>
             </div>
             <form onSubmit={handleSubmit}>
-                <input className='register__input' placeholder='username' type="text" ref={nameRef}/>
-                <input className='register__input' placeholder='email' type="email" ref={emailRef}/>
-                <input className='register__input' placeholder='password' type="password" ref={passRef}/>
-                <button className='register__button'>Register</button>
-                {success && <span className='success'>Success, u can login now</span>}
-                {error && <span className='error'>Some error</span>}
+                <input className='modal__input' placeholder='username' type="text" ref={nameRef}/>
+                <input className='modal__input' placeholder='email' type="email" ref={emailRef}/>
+                <input className='modal__input' placeholder='password' type="password" ref={passRef}/>
+                <button className='modal__button'>Register</button>
+                {success && <span className='modal-success'>Success, you can login now</span>}
+                {error && <span className='modal-error'>Some error</span>}
             </form>
-            <Cancel onClick={handleClose} className='register__cancel'/>
+            <Cancel onClick={handleClose} className='modal__cancel'/>
         </div>
     )
 }
