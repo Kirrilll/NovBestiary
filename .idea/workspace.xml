@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/EventBlock/EventBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/EventBlock/EventBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/LoginModal/LoginModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/RegisterModal/RegisterModal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/RegisterModal/RegisterModal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
