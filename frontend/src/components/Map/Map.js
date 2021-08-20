@@ -13,8 +13,6 @@ export const Map = () => {
 
     return (
         <ReactMapGL {...viewport}
-                    width="100vw"
-                    height="100vh"
                     onViewportChange={setViewport}
                     mapboxApiAccessToken={'pk.eyJ1IjoiYm91bmRlIiwiYSI6ImNrc2h6dHBtYjA3MTgyeW94Y293dWM2bzAifQ.74yypFwSaSiGxr1AiGBX9g'}
                     mapStyle={'mapbox://styles/bounde/cksj5mr1iaouz17pjxoiik2us'}>

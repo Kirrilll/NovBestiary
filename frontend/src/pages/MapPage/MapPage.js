@@ -1,8 +1,15 @@
-import React from "react"
+import React, {useState} from "react"
+import {Map} from "../../components/Map/Map"
+import {MapFilters} from "../../components/MapFilters/MapFilters"
 
 
 export const MapPage = () => {
+    const [checkedFilter, setCheckedFilter] = useState(null)
+
     return (
-        <div>map</div>
+        <div className='map__page'>
+            <Map />
+            <MapFilters checkedFilter={checkedFilter} setCheckedFilter={setCheckedFilter} />
+        </div>
     )
 }
