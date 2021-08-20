@@ -16,18 +16,17 @@ function App() {
 
     return (
         <>
-            <Map />
+            <Map/>
             {
-                user ? (<button className={'btn btn__logout'} onClick={handleUserLogout}>Log out</button>) : (
-                    <div className={'buttons__container'}>
-                        {user ? (<button className={'btn btn__logout'} onClick={handleUserLogout}>Log out</button>) : (
-                            <>
-                                <button onClick={() => setShowModal('login')} className='btn btn__login'>Log in</button>
-                                <button onClick={() => setShowModal('register')} className='btn bnt__register'>Register</button>
-                            </>
-                        )}
-                    </div>
-                )
+                <div className={'buttons__container'}>
+                    {user ? (<button className={'btn btn__logout'} onClick={handleUserLogout}>Log out</button>) : (
+                        <>
+                            <button onClick={() => setShowModal('login')} className='btn btn__login'>Log in</button>
+                            <button onClick={() => setShowModal('register')} className='btn bnt__register'>Register
+                            </button>
+                        </>
+                    )}
+                </div>
             }
             <RegisterModal isShow={showModal === 'register'} handleClose={() => setShowModal(false)}/>
             <LoginModal isShow={showModal === 'login'} handleClose={() => setShowModal(false)}/>
