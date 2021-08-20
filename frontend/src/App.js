@@ -1,12 +1,13 @@
 import React, {useState} from "react"
-import ReactMapGL from 'react-map-gl'
-import './App.css'
+
 import {RegisterModal} from "./components/RegisterModal/RegisterModal"
 import {LoginModal} from "./components/LoginModal/LoginModal"
-import {Map} from "./components/Map";
+import {Map} from "./components/Map"
+
+import './App.css'
 
 
-function App() {
+const App = () => {
     const user = ''
     const [showModal, setShowModal] = useState(null)
 
