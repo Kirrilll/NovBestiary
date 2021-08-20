@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/EventBlock/EventBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/EventBlock/EventBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LoginModal/LoginModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/RegisterModal/RegisterModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/RegisterModal/RegisterModal.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +29,7 @@
       <list>
         <option value="Sass File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -28,13 +44,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/LoginModal" />
-    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\LoginModal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components" />
+      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\pages\MapPage\Map" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\RegisterModal" />
     </key>
   </component>

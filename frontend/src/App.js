@@ -2,9 +2,10 @@ import React, {useState} from "react"
 
 import {RegisterModal} from "./components/RegisterModal/RegisterModal"
 import {LoginModal} from "./components/LoginModal/LoginModal"
-import {Map} from "./components/Map"
+import {Map} from "./components/Map/Map"
 
 import './App.css'
+import {Redirect, Route, Switch} from "react-router-dom";
 
 
 const App = () => {
@@ -17,7 +18,15 @@ const App = () => {
 
     return (
         <>
-            <Map/>
+            <div className='app'>
+                <Switch>
+                    <Route path='/home' component={} />
+                    <Route path='/map' component={} />
+                    <Redirect from='/' to='/home' />
+                </Switch>
+            </div>
+
+            <Map />
             {
                 <div className={'buttons__container'}>
                     {user ? (<button className={'btn btn__logout'} onClick={handleUserLogout}>Log out</button>) : (
