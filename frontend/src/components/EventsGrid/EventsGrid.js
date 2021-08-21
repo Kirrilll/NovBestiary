@@ -1,62 +1,58 @@
 import React from "react";
-import EventBlock from "../EventBlock/EventBlock";
-import Sadko from '../../assets/dataBlocks/Sadko.jpg'
+import EventBlock from "../EventBlock/EventBlock"
+import sadko from '../../assets/dataBlocks/Sadko.jpg'
 
-const EventsGrid = () =>{
-
+const EventsGrid = () => {
     const dataBlocks = {
-        sadko:{
+        sadko: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko1:{
+        sadko1: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko2:{
+        sadko2: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko3:{
+        sadko3: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko4:{
+        sadko4: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko5:{
+        sadko5: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         },
-        sadko6:{
+        sadko6: {
             title: 'Садко',
             link: '#',
-            image: {Sadko}
+            image: sadko
         }
     };
 
     const eventBlocks = Object.values(dataBlocks).map((dataBlock) => {
         const {title, link, image} = dataBlock;
         return (
-        <EventBlock
-            title = {title}
-            image = {image}
-            link = {link}
-        ></EventBlock>)
-    });
+            <EventBlock title={title} image={image} link={link}/>
+        )
+    })
 
     return (
-        <div className = 'events-grid'>
+        <div className='events-grid'>
             {eventBlocks}
         </div>
     )
 }
 
-export default EventsGrid;
+export default EventsGrid

@@ -1,30 +1,40 @@
-.header{
+.header {
     padding: 32px 40px;
-    width: 100wh;
+    width: 100%;
     background-color: #DE4444;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.title-group{
+
+.logo__group {
     display: flex;
     align-items: center;
 }
 
-.title-group__title{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 96px;
-    line-height: 101px;
+.header__logo {
+    margin-right: 10px;
+}
+
+.header__title {
+    font-size: 70px;
     color: #151515;
 }
-.signup-btn{
-    outline: 0;
-    border: 0;
-    background-color: transparent;
-}
-.auth-group{
+
+.header__buttons-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.header__button {
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header__button:last-child {
+    margin-right: 0;
+}
+

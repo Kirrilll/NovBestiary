@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/Filter/Filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/Filter/Filter.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +13,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,6 +29,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -48,12 +41,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/LoginModal" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\LoginModal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\Header" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\pages\MapPage\Map" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\RegisterModal" />

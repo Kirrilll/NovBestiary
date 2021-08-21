@@ -5,7 +5,7 @@ import FastfoodOutlinedIcon from '@material-ui/icons/FastfoodOutlined'
 import HomeWorkOutlinedIcon from '@material-ui/icons/HomeWorkOutlined'
 import LocalHospitalOutlinedIcon from '@material-ui/icons/LocalHospitalOutlined'
 import './MapFilters.css'
-import {Link, Redirect} from "react-router-dom"
+import {Link} from "react-router-dom"
 
 
 export const MapFilters = ({setCheckedFilter, checkedFilter}) => {
