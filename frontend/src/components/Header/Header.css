@@ -1,0 +1,30 @@
+.header{
+    padding: 32px 40px;
+    width: 100wh;
+    background-color: #DE4444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-group{
+    display: flex;
+    align-items: center;
+}
+
+.title-group__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 101px;
+    color: #151515;
+}
+.signup-btn{
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+.auth-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
