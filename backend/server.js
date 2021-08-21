@@ -3,6 +3,9 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 const pinRoute = require('./routes/pins')
 const userRoute = require('./routes/users')
+const foodsRoute = require('./routes/foods')
+const homesRoute = require('./routes/homes')
+const hospitalsRoute = require('./routes/hospitals')
 
 const app = express()
 
@@ -21,6 +24,10 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use('/api/pins', pinRoute)
 app.use('/api/users', userRoute)
+app.use('/api/events', eventRoute)
+app.use('/api/foods', foodsRoute)
+app.use('/api/homes', homesRoute)
+app.use('/api/hospitals', hospitalsRoute)
 
 app.listen(8888, () => {
     console.log('server running')
