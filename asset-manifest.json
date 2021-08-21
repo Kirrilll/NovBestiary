@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/NovBestiary/static/css/main.a22d7ce5.chunk.css",
-    "main.js": "/NovBestiary/static/js/main.a3fb9531.chunk.js",
-    "main.js.map": "/NovBestiary/static/js/main.a3fb9531.chunk.js.map",
-    "runtime-main.js": "/NovBestiary/static/js/runtime-main.eb9aba3a.js",
-    "runtime-main.js.map": "/NovBestiary/static/js/runtime-main.eb9aba3a.js.map",
-    "static/js/2.58bc6688.chunk.js": "/NovBestiary/static/js/2.58bc6688.chunk.js",
-    "static/js/2.58bc6688.chunk.js.map": "/NovBestiary/static/js/2.58bc6688.chunk.js.map",
-    "index.html": "/NovBestiary/index.html",
-    "static/css/main.a22d7ce5.chunk.css.map": "/NovBestiary/static/css/main.a22d7ce5.chunk.css.map",
-    "static/js/2.58bc6688.chunk.js.LICENSE.txt": "/NovBestiary/static/js/2.58bc6688.chunk.js.LICENSE.txt",
-    "static/media/Sadko.f8192cb5.jpg": "/NovBestiary/static/media/Sadko.f8192cb5.jpg",
-    "static/media/iconMap.5413a906.png": "/NovBestiary/static/media/iconMap.5413a906.png",
-    "static/media/login.6f4b0034.png": "/NovBestiary/static/media/login.6f4b0034.png"
+    "main.css": "/NovBestiary/frontend/static/css/main.a22d7ce5.chunk.css",
+    "main.js": "/NovBestiary/frontend/static/js/main.a3fb9531.chunk.js",
+    "main.js.map": "/NovBestiary/frontend/static/js/main.a3fb9531.chunk.js.map",
+    "runtime-main.js": "/NovBestiary/frontend/static/js/runtime-main.83ea8225.js",
+    "runtime-main.js.map": "/NovBestiary/frontend/static/js/runtime-main.83ea8225.js.map",
+    "static/js/2.1bae5324.chunk.js": "/NovBestiary/frontend/static/js/2.1bae5324.chunk.js",
+    "static/js/2.1bae5324.chunk.js.map": "/NovBestiary/frontend/static/js/2.1bae5324.chunk.js.map",
+    "index.html": "/NovBestiary/frontend/index.html",
+    "static/css/main.a22d7ce5.chunk.css.map": "/NovBestiary/frontend/static/css/main.a22d7ce5.chunk.css.map",
+    "static/js/2.1bae5324.chunk.js.LICENSE.txt": "/NovBestiary/frontend/static/js/2.1bae5324.chunk.js.LICENSE.txt",
+    "static/media/Sadko.f8192cb5.jpg": "/NovBestiary/frontend/static/media/Sadko.f8192cb5.jpg",
+    "static/media/iconMap.5413a906.png": "/NovBestiary/frontend/static/media/iconMap.5413a906.png",
+    "static/media/login.6f4b0034.png": "/NovBestiary/frontend/static/media/login.6f4b0034.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb9aba3a.js",
-    "static/js/2.58bc6688.chunk.js",
+    "static/js/runtime-main.83ea8225.js",
+    "static/js/2.1bae5324.chunk.js",
     "static/css/main.a22d7ce5.chunk.css",
     "static/js/main.a3fb9531.chunk.js"
   ]
