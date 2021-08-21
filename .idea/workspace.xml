@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/homes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/homes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/hospitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/hospitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/MapPage/MapPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />

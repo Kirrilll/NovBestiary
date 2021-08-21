@@ -5,7 +5,7 @@ router.post('/', async (req, res) => {
     const newHome = new Home(req.body)
     try {
         const saveHome = await newHome.save()
-        res.status(200).json(Home)
+        res.status(200).json(saveHome)
     } catch (err) {
         res.status(500).json(err)
     }

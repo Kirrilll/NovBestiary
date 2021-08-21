@@ -5,7 +5,7 @@ router.post('/', async (req, res) => {
     const newHospital = new Hospital(req.body)
     try {
         const saveHospital = await newHospital.save()
-        res.status(200).json(Hospital)
+        res.status(200).json(saveHospital)
     } catch (err) {
         res.status(500).json(err)
     }
