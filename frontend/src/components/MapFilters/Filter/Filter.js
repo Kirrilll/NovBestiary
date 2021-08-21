@@ -1,6 +1,6 @@
 import React from "react"
 import './Filter.css'
-import classNames from "classnames"
+import classNames from 'classnames'
 
 
 export const Filter = ({children, isChecked, setCheckedFilter}) => {

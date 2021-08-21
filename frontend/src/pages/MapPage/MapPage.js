@@ -9,7 +9,7 @@ export const MapPage = () => {
     return (
         <div className='map__page'>
             <Map />
-            <MapFilters checkedFilter={checkedFilter} setCheckedFilter={setCheckedFilter} />
+            <MapFilters checkedFilter={checkedFilter} setCheckedFilter={setCheckedFilter}/>
         </div>
     )
 }
