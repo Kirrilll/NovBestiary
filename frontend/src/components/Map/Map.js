@@ -24,7 +24,11 @@ export class Map extends React.Component {
         this.map = new mapboxgl.Map({
             container: this.mapWrapper,
             style: 'mapbox://styles/mapbox/streets-v10',
+<<<<<<< HEAD
             center: [31.28, 58.52],
+=======
+            center: [58.52557, 31.27419],
+>>>>>>> 350c32f55b41381e7ebe8e5207e13398b6c5627b
             zoom: 12
         })
 
