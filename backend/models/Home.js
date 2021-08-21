@@ -9,12 +9,6 @@ const HomeSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    // rating: {
-    //     type: Number,
-    //     required: true,
-    //     min: 0,
-    //     max: 5
-    // },
     lat: {
         type: Number,
         required: true
