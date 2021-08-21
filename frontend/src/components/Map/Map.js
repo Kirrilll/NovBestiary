@@ -1,28 +1,34 @@
-import React, { useState } from "react";
-import ReactMapGL from "react-map-gl";
+import React from 'react'
+import './Map.css'
+import mapboxgl from 'mapbox-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
+import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions'
+import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css'
 
-export const Map = () => {
-  const [viewport, setViewport] = useState({
-    width: "100vw",
-    height: "100vh",
-    longitude: 31.27419,
-    latitude: 58.52557,
-    zoom: 10,
-  });
 
-  return (
-    <ReactMapGL
-      {...viewport}
-      maxZoom={20} //Макксимальный зум
-      minZoom={10} //Минимальный зум
-      {...viewport}
-      width="100vw"
-      height="100vh"
-      onViewportChange={setViewport}
-      mapboxApiAccessToken={
-        "pk.eyJ1Ijoib2JvdyIsImEiOiJja3NqMDVpaTIwZ3J5MnlveG52Nzd2NTg4In0.s5RnIJm4JbS8-Egiq5GYrg"
-      }
-      mapStyle={"mapbox://styles/obow/ckskyhxdf39u918s0wpmuiqk3/draft"}
-    ></ReactMapGL>
-  );
-};
+mapboxgl.accessToken = 'pk.eyJ1IjoiYm91bmRlIiwiYSI6ImNrc2h6dHBtYjA3MTgyeW94Y293dWM2bzAifQ.74yypFwSaSiGxr1AiGBX9g'
+
+export class Map extends React.Component {
+    componentDidMount() {
+        const map = new mapboxgl.Map({
+            container: this.mapWrapper,
+            style: 'mapbox://styles/mapbox/streets-v10',
+            center: [-73.985664, 40.748514],
+            zoom: 12
+        })
+
+        const directions = new MapboxDirections({
+            accessToken: mapboxgl.accessToken,
+            unit: 'metric',
+            profile: 'mapbox/driving',
+        })
+
+        map.addControl(directions, 'top-right')
+    }
+
+    render() {
+        return (
+            <div ref={el => (this.mapWrapper = el)} className="mapWrapper" />
+        )
+    }
+}

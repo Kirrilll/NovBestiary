@@ -5,8 +5,8 @@ import EventsGrid from "../../components/EventsGrid/EventsGrid"
 export const HomePage = () => {
     return (
         <>
-            <Header></Header>
-            <EventsGrid></EventsGrid>
+            <Header />
+            <EventsGrid />
         </>
     )
 }
