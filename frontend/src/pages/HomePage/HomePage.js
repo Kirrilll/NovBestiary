@@ -6,7 +6,7 @@ export const HomePage = () => {
     return (
         <>
             <Header></Header>
-            {/* <EventsGrid></EventsGrid> */}
+            <EventsGrid></EventsGrid>
         </>
     )
 }

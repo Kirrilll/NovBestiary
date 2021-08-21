@@ -1,27 +1,25 @@
-import React from "react";
-import '../Header/Header.css'
+import React from "react"
+import './Header.css'
 import {Link} from "react-router-dom"
 import Logo from '../../assets/header/Logotype.png'
 import Login from '../../assets/header/login.png'
 import IconMap from '../../assets/header/iconMap.png'
 
-const Header = () =>{
+const Header = () => {
     return (
-        <header className = "header">
-            <div className = "title-group">
-                <span className = "title-group__wrapper">
-                    <img src = {Logo} className = "logo" />
-                </span>
-                <h3 className = "title-group__title">ovBestiary</h3>
+        <header className="header">
+            <div className="logo__group">
+                <img src={Logo} className="header__logo" alt='logo'/>
+                <span className="header__title">ovBestiary</span>
             </div>
-            <div className = 'auth-group'>
-                <Link to='/map' className='header__link'>
-                    <img className = "map__img" src = {IconMap}/>
+            <div className='header__buttons-container'>
+                <Link to='/map' className='header__button'>
+                    <img className="map__img" src={IconMap} alt='map logo'/>
                 </Link>
-                <button className = "signup-btn">
-                    <img className = 'sigup-btn__img' src = {Login}/>
+                <button className="header__button">
+                    <img className='profile__img' src={Login} alt='profile logo' />
                 </button>
-            </div>      
+            </div>
         </header>
     )
 }
