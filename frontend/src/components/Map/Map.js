@@ -16,6 +16,11 @@ export class Map extends React.Component {
             accessToken: mapboxgl.accessToken,
             unit: 'metric',
             profile: 'mapbox/driving',
+            language: 'ru',
+            interactive: false,
+            controls: {
+                inputs: false,
+            }
         })
         this.markers = []
     }
@@ -29,6 +34,15 @@ export class Map extends React.Component {
         })
 
         this.map.addControl(this.directions, 'top-right')
+
+        this.map.on('load', () =>{
+            this.SetDirection([31.27419, 58.52557], [31.27519, 58.53657])
+        })
+    }
+
+    SetDirection(origin, destination){
+        this.directions.setOrigin(origin);
+        this.directions.setDestination(destination);
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) {
