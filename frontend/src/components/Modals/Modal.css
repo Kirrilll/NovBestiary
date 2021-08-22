@@ -1,0 +1,79 @@
+.modal__container {
+    width: 250px;
+    min-height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1111;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.modal__logo {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-bottom: 40px;
+}
+
+.modal__logo-img {
+    width: 100%;
+}
+
+.modal__form {
+    height: 60%;
+}
+
+.modal__btn {
+    cursor: pointer;
+    width: 178px;
+    border: 2px solid #0084CE;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0084CE;
+    margin-bottom: 20px;
+}
+
+.modal__input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.register__button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: #0084CE;
+    cursor: pointer;
+}
+
+.success {
+    color: green;
+    font-size: 12px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.register__cancel {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}

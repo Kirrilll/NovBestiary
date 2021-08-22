@@ -7,7 +7,7 @@ import './Map.css'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiYm91bmRlIiwiYSI6ImNrc2h6dHBtYjA3MTgyeW94Y293dWM2bzAifQ.74yypFwSaSiGxr1AiGBX9g'
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2F0eWF5dW5ldmEiLCJhIjoiY2tzbGp5ejJ3MDV0NTMycDczY3J0NDV6OSJ9.3Kx4E0QAcT6buykLEkaDCA'
 
 export class Map extends React.Component {
     constructor(props) {
@@ -28,7 +28,7 @@ export class Map extends React.Component {
     componentDidMount() {
         this.map = new mapboxgl.Map({
             container: this.mapWrapper,
-            style: 'mapbox://styles/mapbox/streets-v10',
+            style: 'mapbox://styles/katyayuneva/cksljzjtj44mo17k17zs4onyc/draft',
             center: [31.27639, 58.52152],
             zoom: 12
         })

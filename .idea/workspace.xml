@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/cityBlock/background-vectors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/cityBlock/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/cityBlock/palace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/Logotype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/header/Profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/interactiveBlock/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/interactiveBlock/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/interactiveBlock/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/interactiveBlock/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legend/game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legend/legend-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legend/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legend/scn_main.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legend/teaser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/legends/l1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/BackButton/BackButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Modals/LoginModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Modals/Modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Modals/RegisterModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Modals/StartModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/dataBlocks/Sadko.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/header/Logotype.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/header/iconMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/assets/header/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Map/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/MapFilters/MapFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +50,7 @@
       <list>
         <option value="Sass File" />
         <option value="SCSS File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -33,9 +69,6 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/frontend/package.json" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -43,8 +76,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/components/LoginModal" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-03" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -52,10 +85,11 @@
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\LoginModal" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\Modals" />
+      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\BackButton" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\Header" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components" />
       <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\pages\MapPage\Map" />
-      <recent name="C:\Users\maksb\Desktop\tripp\Программирование\Web\FullStack\projects\nov-bestiary\frontend\src\components\RegisterModal" />
     </key>
   </component>
   <component name="TaskManager">
