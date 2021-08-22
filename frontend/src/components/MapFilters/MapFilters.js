@@ -1,19 +1,16 @@
 import React from "react"
 import {Filter} from "./Filter/Filter"
-import ChevronLeftOutlinedIcon from '@material-ui/icons/ChevronLeftOutlined'
 import FastfoodOutlinedIcon from '@material-ui/icons/FastfoodOutlined'
 import HomeWorkOutlinedIcon from '@material-ui/icons/HomeWorkOutlined'
 import LocalHospitalOutlinedIcon from '@material-ui/icons/LocalHospitalOutlined'
 import './MapFilters.css'
-import {Link} from "react-router-dom"
+import {BackButton} from "../BackButton/BackButton"
 
 
 export const MapFilters = ({setCheckedFilter, checkedFilter}) => {
     return (
         <div className='map__filters'>
-            <Link to='/home' className='map__filter'>
-                <ChevronLeftOutlinedIcon />
-            </Link>
+            <BackButton />
             <Filter isChecked={checkedFilter === 'food'} setCheckedFilter={() => setCheckedFilter('food')}>
                 <FastfoodOutlinedIcon />
             </Filter>
