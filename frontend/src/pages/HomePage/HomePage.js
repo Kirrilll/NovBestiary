@@ -118,7 +118,7 @@ export const HomePage = () => {
                             <button className="item__button btn">Открыть на карте</button>
                         </div>
                         <div className="legends__item">
-                            <img src={firstLegend} alt="" className="item__img"/>
+                            <img src="https://schci.ru/sites/default/files/folklor/Sadko.jpg" alt="" className="item__img"/>
                             <div className="item__name">Былина о Садко</div>
                             <Link to={'/home/legend:id'} className="item__button-outlined btn">Прочитать</Link>
                             <button className="item__button btn">Открыть на карте</button>

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4119d4ac-08ea-4f06-a278-217525c740e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Event.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LegendPage/LegendPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
