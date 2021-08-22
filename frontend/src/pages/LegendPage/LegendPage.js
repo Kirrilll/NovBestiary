@@ -8,6 +8,7 @@ import profileImg from '../../assets/header/Profile.svg'
 import StarIcon from '@material-ui/icons/Star'
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined'
 import './LegendPage.css'
+import {Link} from "react-router-dom";
 
 
 export const LegendPage = () => {
@@ -38,9 +39,6 @@ export const LegendPage = () => {
                 <h3 className="teaser__title">ТИЗЕР Достопримечательности</h3>
                 <div className="teaser__container">
                     <video controls src={video} />
-                    {/*<button className="teaser__btn">*/}
-                    {/*    <PlayArrowIcon/>*/}
-                    {/*</button>*/}
                 </div>
             </div>
 
@@ -56,7 +54,7 @@ export const LegendPage = () => {
                         <div className="teaser__description description">Для того, чтобы начать игру, вам нужно быть на
                             территории достопримечательности
                         </div>
-                        <button className="teaser__game__btn">Проложить маршрут</button>
+                        <Link to='/map' className="teaser__game__btn">Проложить маршрут</Link>
                     </div>
                 </div>
             </div>

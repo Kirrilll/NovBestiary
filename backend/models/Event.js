@@ -3,14 +3,14 @@ const mongoose = require('mongoose')
 const EventSchema = new mongoose.Schema({
     title: {
         type: String,
-        required: true,
+        required: true
     },
     desc: {
         type: String,
-        required: true,
+        required: true
     },
     img: {
-        type: Image,
+        type: String,
         required: true
     },
     lat: {
