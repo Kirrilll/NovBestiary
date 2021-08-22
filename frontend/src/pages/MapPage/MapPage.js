@@ -3,6 +3,7 @@ import axios from "axios"
 
 import {Map} from "../../components/Map/Map"
 import {MapFilters} from "../../components/MapFilters/MapFilters"
+import {useParams} from "react-router-dom";
 
 
 export const MapPage = () => {

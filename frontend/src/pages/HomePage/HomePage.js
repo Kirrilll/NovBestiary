@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 import Header from "../../components/Header/Header"
 import cityLogo from '../../assets/cityBlock/logo.png'
 import palace from '../../assets/cityBlock/palace.png'
@@ -6,13 +6,38 @@ import firstListItem from '../../assets/interactiveBlock/game.png'
 import secondListItem from '../../assets/interactiveBlock/phone.png'
 import thirdListItem from '../../assets/interactiveBlock/play.png'
 import map from '../../assets/interactiveBlock/map.png'
-import firstLegend from '../../assets/legends/l1.png'
 import './HomePage.css'
-import {Link} from "react-router-dom"
+import {Link, useParams} from "react-router-dom"
+import axios from "axios"
 
 
 export const HomePage = () => {
     const [inputValue, setInputValue] = useState('')
+    const [legends, setLegends] = useState([])
+    let legendsList = []
+
+    useEffect(() => {
+        const getLegends = async () => {
+            try {
+                const res = await axios.get('/events')
+                setLegends(res.data)
+            } catch (err) {
+                console.log(err)
+            }
+        }
+        getLegends()
+    }, [])
+
+    if (legends) {
+        legendsList = legends.map(legend => (
+            <div className="legends__item">
+                <img src={legend.img} alt="" className="item__img"/>
+                <div className="item__name">{legend.title}</div>
+                <Link to={`/home/legend/${legend._id}`} className="item__button-outlined btn">Прочитать</Link>
+                <button className="item__button btn">Открыть на карте</button>
+            </div>
+        ))
+    }
 
     return (
         <div className='home__wrapper'>
@@ -99,30 +124,7 @@ export const HomePage = () => {
                                onChange={e => setInputValue(e.target.value)}/>
                     </div>
                     <div className="legends__items">
-                        <div className="legends__item">
-                            <img src={firstLegend} alt="" className="item__img"/>
-                            <div className="item__name">Былина о Садко</div>
-                            <Link to={'/home/legend'} className="item__button-outlined btn">Прочитать</Link>
-                            <button className="item__button btn">Открыть на карте</button>
-                        </div>
-                        <div className="legends__item">
-                            <img src={firstLegend} alt="" className="item__img"/>
-                            <div className="item__name">Былина о Садко</div>
-                            <Link to={'/home/legend'} className="item__button-outlined btn">Прочитать</Link>
-                            <button className="item__button btn">Открыть на карте</button>
-                        </div>
-                        <div className="legends__item">
-                            <img src={firstLegend} alt="" className="item__img"/>
-                            <div className="item__name">Былина о Садко</div>
-                            <Link to={'/home/legend'} className="item__button-outlined btn">Прочитать</Link>
-                            <button className="item__button btn">Открыть на карте</button>
-                        </div>
-                        <div className="legends__item">
-                            <img src="https://schci.ru/sites/default/files/folklor/Sadko.jpg" alt="" className="item__img"/>
-                            <div className="item__name">Былина о Садко</div>
-                            <Link to={'/home/legend:id'} className="item__button-outlined btn">Прочитать</Link>
-                            <button className="item__button btn">Открыть на карте</button>
-                        </div>
+                        {legendsList}
                     </div>
                 </div>
             </section>

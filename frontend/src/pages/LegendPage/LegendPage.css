@@ -134,6 +134,7 @@
     outline: none;
     background-color: #FFFFFF;
     cursor: pointer;
+    text-decoration: none;
 
     transition: background-color .3s linear, color .3s linear;
 }
